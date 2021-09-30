@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    function xyz(name) {
+      this.name = name;
+      //   this.getName = function () {
+      //     return this.name;
+      //   };
+    }
+    xyz.prototype.getName = function () {
+      return this.name;
+    };
+    let e1 = new xyz("sachin");
+    let e2 = new xyz("abhishek");
+    console.log(e1.getName());
+  </script>
+</html>

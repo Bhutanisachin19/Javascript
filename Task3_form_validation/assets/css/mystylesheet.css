@@ -1,0 +1,58 @@
+.left , .right
+{
+    height: 105vh;
+    width: 100%;
+}
+
+
+.abc
+{
+    text-align: center;
+}
+
+
+.right
+{
+    background: grey;
+}
+
+
+
+#form_div{
+    border-style: groove;
+    padding: 30px 10px 10px 10px;   
+    margin: 50px 20px 0px 20px;
+    border-radius: 20px; 
+}
+
+
+#head{
+    color: white;
+}
+
+
+#topmost{
+    font-size: 150%;
+}
+
+
+
+#row1{
+      border-style: groove;
+        padding: 10px 10px 10px 10px;   
+        border-radius: 20px; 
+}
+
+
+#left_heading
+{
+    padding: 200px 70px 0px 70px;
+}
+
+
+
+#messi
+{
+    height: 90%;
+    width: 100%;
+}
